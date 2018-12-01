@@ -14,3 +14,5 @@ wx.secret=
 wx.webAccessTokenHttps=https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code
 
 ```
+
+正在为上传到Maven仓库做准备
