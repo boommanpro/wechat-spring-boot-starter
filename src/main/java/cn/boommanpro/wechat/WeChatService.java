@@ -20,11 +20,7 @@ import java.security.spec.InvalidParameterSpecException;
 import java.util.Base64;
 
 /**
- * @author BoomMan
- * @mail 59232311@qq.com
- * @CreateTime 2018/12/1 14:33
- * @Version 1.0
- * @Description TODD
+ * @author BoomMan  59232311@qq.com  WeChatService
  */
 @Log4j2
 public class WeChatService {
@@ -40,7 +36,10 @@ public class WeChatService {
         Security.addProvider(new BouncyCastleProvider());
     }
 
-
+    /**
+     * @author BoomMan
+     * @Description 核心方法
+     **/
     public WeChatAccountInfo decryptWeChatLoginForm(WeChatLoginForm weChatLoginForm) {
         String requestUrl = getWebAccess(weChatLoginForm.getCode());
         Code2Session code2Session = CommonUtil.httpsRequest(requestUrl, "GET", null).toJavaObject(Code2Session.class);

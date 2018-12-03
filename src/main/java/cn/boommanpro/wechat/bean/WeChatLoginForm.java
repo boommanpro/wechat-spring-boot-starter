@@ -5,11 +5,8 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * @author BoomMan
- * @mail 59232311@qq.com
- * @CreateTime 2018/11/26 16:25
- * @Version 1.0
- * @Description 前端需要传递的解密数据
+ * @author BoomMan 59232311@qq.com
+ * 前端需要传递的解密数据
  */
 @Getter
 @Setter

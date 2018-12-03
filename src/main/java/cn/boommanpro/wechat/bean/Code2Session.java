@@ -5,11 +5,7 @@ import lombok.Data;
 import lombok.experimental.Accessors;
 
 /**
- * @author BoomMan
- * @mail 59232311@qq.com
- * @CreateTime 2018/11/27 18:44
- * @Version 1.0
- * @Description
+ * @author BoomMan 59232311@qq.com
  *  code2Session 官方文档地址:
  *  https://developers.weixin.qq.com/miniprogram/dev/api/open-api/login/code2Session.html
  */

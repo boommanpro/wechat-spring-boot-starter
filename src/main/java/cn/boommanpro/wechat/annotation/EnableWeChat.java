@@ -8,10 +8,6 @@ import java.lang.annotation.*;
 
 /**
  * @author BoomMan
- * @mail 59232311@qq.com
- * @CreateTime 2018/12/1 17:32
- * @Version 1.0
- * @Description TODD
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

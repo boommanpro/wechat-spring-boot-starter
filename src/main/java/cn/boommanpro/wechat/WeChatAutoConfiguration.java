@@ -15,10 +15,6 @@ import java.util.Map;
 
 /**
  * @author BoomMan
- * @mail 59232311@qq.com
- * @CreateTime 2018/12/1 14:31
- * @Version 1.0
- * @Description TODD
  */
 @Configuration
 @ConditionalOnClass(WeChatService.class)
