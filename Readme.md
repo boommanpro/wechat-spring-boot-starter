@@ -15,4 +15,11 @@ wx.webAccessTokenHttps=https://api.weixin.qq.com/sns/jscode2session?appid=%s&sec
 
 现在采用@EnableWeChat开启WeChat服务
 
-正在为上传到Maven仓库做准备
+use Maven For wechat-spring-boot-starter
+```
+<dependency>
+  <groupId>cn.boommanpro</groupId>
+  <artifactId>wechat-spring-boot-starter</artifactId>
+  <version>1.0.0.RELEASE</version>
+</dependency>
+```
