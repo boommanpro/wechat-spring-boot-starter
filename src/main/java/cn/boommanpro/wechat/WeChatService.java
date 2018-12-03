@@ -37,9 +37,11 @@ public class WeChatService {
     }
 
     /**
-     * @author BoomMan
-     * @Description 核心方法
-     **/
+     * 核心方法
+     *
+     * @param weChatLoginForm    请求地址
+     * @return 返回用户信息
+     */
     public WeChatAccountInfo decryptWeChatLoginForm(WeChatLoginForm weChatLoginForm) {
         String requestUrl = getWebAccess(weChatLoginForm.getCode());
         Code2Session code2Session = CommonUtil.httpsRequest(requestUrl, "GET", null).toJavaObject(Code2Session.class);
