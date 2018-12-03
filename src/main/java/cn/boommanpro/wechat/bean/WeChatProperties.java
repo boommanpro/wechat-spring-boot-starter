@@ -15,7 +15,4 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class WeChatProperties {
     private String appId;
     private String secret;
-    private String codePath;
-    private String webAccessTokenHttps;
-    private String userMessage;
 }

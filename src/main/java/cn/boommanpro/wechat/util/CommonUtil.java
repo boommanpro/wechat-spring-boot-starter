@@ -15,9 +15,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.ConnectException;
 import java.net.URL;
-import java.security.MessageDigest;
-import java.util.Calendar;
-import java.util.Date;
 
 public class CommonUtil {
     private static Logger log = LoggerFactory.getLogger(CommonUtil.class);

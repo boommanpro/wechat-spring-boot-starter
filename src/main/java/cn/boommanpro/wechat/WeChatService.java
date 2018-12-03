@@ -30,6 +30,7 @@ import java.util.Base64;
 public class WeChatService {
     private final static String AES = "AES";
 
+    private final String webAccessTokenHttps = "https://api.weixin.qq.com/sns/jscode2session?appid=%s&secret=%s&js_code=%s&grant_type=authorization_code";
 
     @Autowired
     private WeChatProperties weChatProperties;
@@ -55,7 +56,7 @@ public class WeChatService {
 
 
     private String getWebAccess(String code) {
-        return String.format(weChatProperties.getWebAccessTokenHttps(),
+        return String.format(webAccessTokenHttps,
                 weChatProperties.getAppId(),
                 weChatProperties.getSecret(),
                 code);
