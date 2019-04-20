@@ -41,3 +41,9 @@ private WeChatService weChatService;
 有任何问题可以提出
 
 if you have any question ,please pull issue or contact  my mail 592323211@qq.com
+
+
+
+### 上传自己的jar到Maven中央仓库
+
+[如何将自己的jar包上传到Maven仓库](https://blog.csdn.net/boom_man/article/details/84753028)
