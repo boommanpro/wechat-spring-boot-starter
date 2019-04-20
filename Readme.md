@@ -10,7 +10,7 @@
 <dependency>
   <groupId>cn.boommanpro</groupId>
   <artifactId>wechat-spring-boot-starter</artifactId>
-  <version>1.0.0.RELEASE</version>
+  <version>1.0.1.RELEASE</version>
 </dependency>
 ```
 
@@ -29,7 +29,7 @@ wx.secret=
 
 
 3.开启相应注解
-@EnableWeChat
+@EnableWechat
 
 4.马上使用它
 ```

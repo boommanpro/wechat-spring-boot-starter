@@ -1,7 +1,7 @@
 package cn.boommanpro.wechat;
 
 
-import cn.boommanpro.wechat.annotation.EnableWeChat;
+import cn.boommanpro.wechat.annotation.EnableWechat;
 import cn.boommanpro.wechat.bean.WeChatProperties;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
@@ -30,6 +30,6 @@ public class WeChatAutoConfiguration implements ImportAware {
 
     @Override
     public void setImportMetadata(AnnotationMetadata importMetadata) {
-        Map<String, Object> attributeMap = importMetadata.getAnnotationAttributes(EnableWeChat.class.getName());
+        Map<String, Object> attributeMap = importMetadata.getAnnotationAttributes(EnableWechat.class.getName());
     }
 }

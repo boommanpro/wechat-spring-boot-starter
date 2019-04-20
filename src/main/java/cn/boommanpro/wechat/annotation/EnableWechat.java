@@ -13,6 +13,5 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @Documented
 @Import(WeChatAutoConfiguration.class)
-@Configuration
-public @interface EnableWeChat {
+public @interface EnableWechat {
 }
