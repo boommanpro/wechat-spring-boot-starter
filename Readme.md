@@ -47,8 +47,11 @@ if you have any question ,please pull issue or contact  my mail 592323211@qq.com
 
 如果该项目帮到了你,请作者喝杯咖啡哈!
 
-![AliPay Pay](https://raw.githubusercontent.com/BoomManPro/java-interview/master/personal/Ali_Pay.jpg)
-![WeChat Pay](https://raw.githubusercontent.com/BoomManPro/java-interview/master/personal/WeChat_Pay.jpg)
+<img src="https://raw.githubusercontent.com/BoomManPro/java-interview/master/personal/Ali_Pay.jpg" width="350" hegiht="200" align=center />
+<img src="https://raw.githubusercontent.com/BoomManPro/java-interview/master/personal/WeChat_Pay.jpg" width="400" hegiht="1000" align=center />
+
+
+
 
 
 
